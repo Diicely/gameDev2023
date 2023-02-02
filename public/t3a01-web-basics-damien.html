@@ -3,7 +3,7 @@
 <title> Basic web thingies </title>
 </head>
 <body>
-<h5>Version 0.0.21</h5>
+<h5>Version 0.0.22</h5>
 
 <h1 align=center>t3a01-web-basics-by-damien.html </h1>
 
@@ -29,8 +29,7 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
   document.getElementById('myDiv01').innerHTML = 'Hello don\'t World'
 }">
 <input type=button value="1. Variables" onclick="{
- x = 3
- myY = 'Damien'
+ document.getElementById('myDiv01').innerHTML = 'x = 3 myY \'Damien\' '
 
 }">
 <input type=button value="2. Input/Output" onclick="{
@@ -38,18 +37,13 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 }">                                                 
 <input type=button value="4. Decisions" onclick="{
   document.getElementById('myDiv01').innerHTML = `
-if(x==3) {
-         greeting = \'Good day\';
-     } 
-if (x <= 3) {
-          greeting = 'hi';
-             } else {greeting = 'banana';
-                 }
-if ((x > 3) && (x < 9)) {
-      greeting = 'cheese';
-            } else {
-             greeting = 'Im running out of things to say';
-              }
+   Decisions use the if statement to make true false variable decisions<br>
+ <pre>
+  if (hour < 18) {
+            greeting = 'Good day';
+    }
+</pre>
+                                                 
 `}"><br>
 You do: 2:variables, 3:loops, 5:functions, 6:events, 7:arrays, 8:objects, 9:classes<br>
 
