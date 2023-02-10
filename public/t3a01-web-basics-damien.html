@@ -4,14 +4,14 @@
 </head>
 <body style="background-color:#E3E4FA;">
 
-<h5>Version 0.2.2</h5>
+<h5>Version 0.3.0</h5>
 
   <h1 align=center>Web Basics </h1>
 <h3 align=center><a href="https://diicely.github.io/gameDev2023/public/index.html">Return to Index</a></h3>
-This is a cat <br>
+Fluffy Cat <br>
 <img width=200 src="https://nypost.com/wp-content/uploads/sites/2/2019/09/fat-cat.jpg?quality=75&strip=all&w=1024"><br><br>
 
-Wade murdering kwuak kwuak <br>
+DankPods Video <br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WliEHWNwBQE?start=471" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <hr>
 <div>this is a div</div>
@@ -26,9 +26,11 @@ Wade murdering kwuak kwuak <br>
   document.getElementById('myDiv01').innerHTML = 'Hello don\'t World'
 }">
 <input type=button value="1. Variables" onclick="{
- document.getElementById('myDiv01').innerHTML = 'x = 3 myY \'Damien\' '
+ document.getElementById('myDiv01').innerHTML = `
+ x = 3
+ myY = \'Damien\'
 
-}">
+`}">
 <input type=button value="2. Input/Output" onclick="{
   document.getElementById('myDiv01').innerHTML = 'Input adffgdsfsgsdfdfg<br>'+'sdfg<br>sdfg<br>output is...'
 }">                                                 
@@ -41,8 +43,34 @@ Wade murdering kwuak kwuak <br>
     }
 </pre>
                                                  
-`}"><br>
-You do: 2:variables, 3:loops, 5:functions, 6:events, 7:arrays, 8:objects, 9:classes<br>
+`}">
+<input type=button value="5. Events" onclick="{
+ document.getElementById('myDiv01').innerHTML = 'onClick(), onMouseOver(), onBlur(), onFocus()'
+ }">
+<input type=button value="6. Objects" onclick="{
+ document.getElementById('myDiv01').innerHTML = 'x = {age:20, name:\'fred\'} // '
+ }">
+  
+<input type=button value="7. Functions" onclick="{
+ document.getElementById('myDiv01').innerHTML = 'function myFun() { }'
+ }">
+<input type=button value="8. Loops" onclick="{
+ document.getElementById('myDiv01').innerHTML = `
+ for (x=0; x , 3; x++){
+ }                                            
+ 
+ `}">
+<input type=button value="9. Arrays" onclick="{
+ document.getElementById('myDiv01').innerHTML = `
+  x[0] = 3;
+  x[1] = 6;
+ `}">
+  
+<input type=button value="10. Classes" onclick="{
+ document.getElementById('myDiv01').innerHTML = `
+ methods    --> functions
+ properties --> variables
+ `}">
 
 <div id="myDiv01">...</div>
 <body>
