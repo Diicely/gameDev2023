@@ -1,13 +1,15 @@
-Version 0.0.1-1 <br>
+Version 0.0.2? <br>
 <form>
 .
 form elements
 .
 </form>
-<form action="/action_page.php">
-  <label for="$/hour">$/hour</label><br>
-  <input type="text" id="$/hour" name="$/hour" value="15"><br>
-  <label for="hours">hours</label><br>
-  <input type="text" id="hours" name="hours" value="20"><br><br>
-  <input type="submit" value="Submit">
+<form>
+Hourly rate <input type="text" id="firstNumber" /><br>
+Hours worked <input type="text" id="secondNumber" /><br>
+Tax Rate <input type="text" id="thirdnumber" /><br>
+<input type="button" onClick="multiplyBy()" Value="Day" />
 </form>
+<p>You take home: <br>
+<span id = "result"></span>
+</p>
