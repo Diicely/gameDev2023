@@ -1,4 +1,11 @@
 Version 0.0.2? <br>
+function multiplyBy()
+{
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+        num3 = document.getElementById("thirdnumber").value;
+        document.getElementById("result").innerHTML = num1 * num2 * num3;
+}
 <form>
 .
 form elements
@@ -8,7 +15,7 @@ form elements
 Hourly rate <input type="text" id="firstNumber" /><br>
 Hours worked <input type="text" id="secondNumber" /><br>
 Tax Rate <input type="text" id="thirdnumber" /><br>
-<input type="button" onClick="multiplyBy()" Value="Day" />
+<input type="button" onClick="multiplyBy()" Value="Calculate" />
 </form>
 <p>You take home: <br>
 <span id = "result"></span>
